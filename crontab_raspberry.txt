@@ -1,2 +1,2 @@
 # Check every hour 
-0 * * * * source /home/pi/env/CryptoRobotFr/bin/activate && cd /home/pi/CryptoRobot && python3 live_tools/strategies/bol_trend/strategy_bitget.py
+0 * * * * . /home/pi/env/CryptoRobotFr/bin/activate && cd /home/pi/CryptoRobot && python3 live_tools/strategies/bol_trend/strategy_bitget.py
